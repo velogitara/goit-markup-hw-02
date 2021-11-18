@@ -31,6 +31,10 @@
     background-color: var(--active-color);
 }
 
+.btn-filter {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+}
 .btn-filter:hover,
 :focus {
     color: var(--white-text-color);
