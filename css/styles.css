@@ -27,11 +27,10 @@
 
 .btn {
     cursor: pointer;
+    color: var(--white-text-color);
+    background-color: var(--active-color);
 }
-.btn:focus,
-.btn:hover {
-    color: var(--active-color);
-}
+
 .btn-filter:hover,
 :focus {
     color: var(--white-text-color);
