@@ -31,32 +31,29 @@
     background-color: var(--active-color);
 }
 
-.btn-filter {
+.site-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
     color: var(--primary-text-color);
-    background-color: var(--secondary-background-color);
-}
-.btn-filter:hover,
-:focus {
-    color: var(--white-text-color);
-    background-color: var(--active-color);
-}
-.btn-filter:focus {
-    color: var(--white-text-color);
 }
 
-.nav-ul-list a {
+.site-nav .link {
     color: var(--primary-text-color);
     text-decoration: none;
     outline: none;
 }
-.nav-ul-list a:hover {
+.site-nav .link.current {
     color: var(--active-color);
 }
-.nav-ul-list a:active {
+.site-nav a:hover {
+    color: var(--active-color);
+}
+.site-nav a:active {
     color: var(--active-color);
     background-color: inherit;
 }
-.nav-ul-list a:focus {
+.site-nav a:focus {
     color: var(--white-text-color);
 }
 /* Hero-section */
@@ -132,7 +129,15 @@
     font-size: 14px;
     line-height: 1.7;
 }
-
+.current-address {
+    color: var(--white-text-color);
+    text-decoration: none;
+    outline: none;
+}
+.current-address:hover {
+    color: var(--active-color);
+    background-color: inherit;
+}
 .address-section {
     color: var(--secondary-text-color);
     text-decoration: none;
@@ -147,6 +152,24 @@
 
 .address-section-opacity {
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* .portfolio */
+.btn-filter {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+    color: var(--white-text-color);
+    background-color: var(--active-color);
+}
+.btn-filter:focus {
+    color: var(--white-text-color);
 }
 
 .filter-list-section-ul h3 {
