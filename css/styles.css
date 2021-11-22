@@ -29,6 +29,7 @@
     cursor: pointer;
     color: var(--white-text-color);
     background-color: var(--active-color);
+    text-align: center;
 }
 
 .site-nav {
@@ -87,7 +88,7 @@
 /* Чем мы занимаемся */
 
 .section-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -155,6 +156,7 @@
 }
 
 /* .portfolio */
+
 .btn-filter {
     color: var(--primary-text-color);
     background-color: var(--secondary-background-color);
